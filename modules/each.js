@@ -3,7 +3,7 @@ import nextTick from './next-tick';
 export function eachAsync(arr, iterator) {
   return new Promise((resolve, reject) => {
     if (!Array.isArray(arr) || !arr.length) {
-      return cb();
+      return reject();
     }
 
     let next = 0;

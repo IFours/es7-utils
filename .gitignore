@@ -1,3 +1,6 @@
 # System files
 .DS_Store
 ._.DS_Store
+
+# Dependency directories
+node_modules
