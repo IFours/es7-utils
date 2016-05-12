@@ -2,17 +2,17 @@
   "name": "es7-utils",
   "version": "0.0.1",
   "description": "es7 utils",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel modules -d lib"
+    "build": "babel --presets es2015 modules -d lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IFours/es7-utils.git"
   },
   "author": "IFours",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IFours/es7-utils/issues"
   },
